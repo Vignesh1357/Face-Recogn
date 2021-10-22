@@ -1,0 +1,453 @@
+#main-body, #login-body{
+    padding: 10% 10% 10% 10%;
+}
+#hint_id_password1, #hint_id_username, #hint_id_password2, #hint_id_new_password1 {
+    display: none;
+}
+#div_id_username ,#div_id_email ,#div_id_password1 ,#div_id_password2, #div_id_password, #div_id_inbox_name{
+
+    margin-bottom:70px;
+    width : 45%;
+    }
+p#counter{
+    margin: 50px 0 50px 0;
+}
+body {
+    font-family: 'Comic Sans MS';
+    color: black;
+    margin-top: 5rem;
+}
+#id_content {
+    height: 50px;
+    width: 70%;
+    color:black;
+}
+article{
+    margin-top: 1rem;
+    height:65px;
+    width: 800px;
+    overflow: auto;
+}
+div {
+  height: 15px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  }
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444444;
+}
+
+ul {
+  margin: 0;
+}
+
+.bg-steel {
+  background-color: #5f788a;
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #c2dbed;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 10;
+  color: #ffffff;
+}
+
+.article-title {
+  color: #444444;
+}
+
+a.article-title:hover {
+  color: #428bca;
+  text-decoration: none;
+}
+.article-img {
+  height: 65px;
+  width: 65px;
+  margin-right: 16px;
+}
+
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: -40px;
+}
+
+.article-metadata a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.article-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+/*home*/
+/*
+.article-content {
+    white-space: pre-line;
+    margin-top: -20px;
+}
+.content-section {
+  background: #ffffff;
+  padding: 30px 20px;
+  border: px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  margin-top: 3px;
+}
+*/
+/* profile */
+/*
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-top: -25px;
+}
+.account-heading {
+  font-size: 2rem;
+  margin-top: -32px;
+  margin-bottom: -5px;
+}
+.profile-info {
+    margin-top:100px;
+    height: 250px;
+    width: 600px;
+}
+.dlt-act {
+    float:right;
+    margin-top: 5px;
+}
+.profile-btn{
+    margin-top:-100px;
+
+}
+.dlt-profile {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+*/
+/* new message */
+
+/*
+.form-msg{
+    margin-bottom:200px;
+    margin-top:-5px;
+}
+*/
+/* password-reset login*/
+/*
+.reset-button{
+    margin-left: -20px;
+    margin-top: 20px;
+}
+.form-group{
+    margin-bottom:40px;
+    margin-top:-5px;
+}
+*/
+/* password-reset-confirm */
+/*
+.reset-btn{
+    padding-top: 20px;
+    margin-left:-40px;
+}
+*/
+/* login button */
+
+.border-bottom {
+    color: black;
+    margin-top:70px;
+    width: 300px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+.signin {
+    float:right;
+}
+.signup{
+    margin-top: -30px;
+    float:left;
+    margin-left: -40px;
+}
+.button {
+    margin-top:50px;
+    margin-left:40px;
+}
+.border-top{
+    padding-top: 30px;
+}
+
+/* max-inbox 
+
+.alert{
+    height: 60px;
+}*/
+/*inbox*/
+/*
+.dlt-inbox{
+    float:right;
+    margin-top: -20px;
+}
+.no-msg{
+    margin-top: 60px;
+}
+.datetime{
+    color:white;
+}
+*/
+
+/* not used */
+
+.msg{
+    height: 40px;
+    margin-top:5px;
+}
+.alert-block {
+    height: 60px;
+}
+
+.alert-error{
+    height: 50px;
+    width: 800px;
+    background-color:red;
+    opacity : 70%;
+}
+
+.new-inbox{
+     margin-top: -30px;
+}
+#div_id_username.form-group{
+    margin-top:-10px;
+    margin-bottom:80px;
+}
+#error_1_id_username, #error_1_id_password2, #error_2_id_password2, #error_3_id_password2, #error_1_id_new_password2{
+    width: 900px;
+}
+#error_2_id_password2, #error_2_id_new_password2{
+    margin-top:-15px;
+    width: 900px;
+}
+#id_content.textarea{
+    height: 200px;
+}
+/* HOME */
+
+@media (max-width: 1000px){
+    .navbar{
+        height: 120px;
+    }
+
+    .sayit-logo{
+        font-size: 40px;
+
+        margin-left: -80px;
+        font-family: fantasy;
+
+    }
+    .navbar-links{
+        font-size: 30px;
+        margin-left: 20px;
+    }
+
+    .content-section{
+        font-size: 30px;
+        margin-top: 200px;
+        width: 800px;
+        height: 100px;
+        margin-left:-100px;
+        border-radius: 25px;
+    }
+    .border-bottom{
+        font-size: 50px;
+    }
+    .button {
+        float:left;
+        font-size: 30px;
+    }
+
+    .alert-block{
+        height: 200px;
+        margin-top: 20px;
+    }
+    .main_home{
+        margin-top:80px;
+    }
+    #home,#recognize,#usn-recognize, #counter, #detect, #detect_face, #id_usn, #capture, #analyze{
+    font-size: 30px;
+    }
+    #id_usn{
+    height:50px;
+    }
+    #signup{
+        margin-top:50px;
+    }
+    #usn_r{
+        height:50px;
+        margin-right: 20px;
+        width:100%;
+        font-size:30px;
+    }
+    #main_home_r{
+        width:150%;
+        display:grid;
+        grid-template-columns: 4fr 1fr 1fr;
+    }
+    .alert-error,.msg{
+    	margin-top:100px;
+    	font-size:30px;
+	height: 100px;
+    }
+	
+
+}
+
+/* inbox */
+/*
+@media (max-width: 1000px){
+    .ur-inbox{
+        margin-top: 100px;
+        font-size: 70px;
+        float: left;
+        margin-left: -80px;
+        margin-bottom: 30px;
+    }
+    article.media{
+        height:175px;
+        margin-bottom: -160px;
+    }
+    .inbox-name{
+        font-size:50px;
+        margin-left: 20px;
+    }
+    .inbox-url{
+        padding:25px 20px 30px 10px;
+    }
+    .no-msg{
+        margin-top: 400px;
+        margin-left:20px;
+    }
+    .inbox-content{
+        font-size:40px;
+        margin-left: 20px;
+    }
+    .datetime {
+        font-size: 20px;
+        float: left;
+        margin-top:220px;
+        margin-bottom:-65px;
+        width: 800px;
+        height: 100px;
+        color: white;
+        margin-left:-100px;
+    }
+    .dlt-inbox {
+        font-size:30px;
+    }
+}
+*/
+/* messages */
+/*
+@media (max-width: 1000px){
+    article{
+       overflow: scroll;
+       color: black;
+    }
+    .message-rcvd {
+        font-size: 70px;
+        margin-top: 100px;
+        margin-bottom: -150px
+    }
+}
+*/
+/* profile */
+/*
+@media (max-width: 1000px){
+    .account-heading{
+        margin-top: -5px;
+    }
+    .dlt-act{
+        font-size:30px;
+    }
+    .profile-btn{
+        padding-top:200px;
+    }
+    .dlt-profile{
+        font-size: 30px;
+        float:left;
+        margin-right: 250px;
+    }
+    .update-button{
+        font-size: 30px;
+        margin-top:5px;
+    }
+    .button-one{
+        font-size: 30px;
+    }
+    .profile-btnone{
+        margin-top: 60px;
+        margin-bottom: -20px;
+        margin-left: -50px;
+    }
+    .profile-info{
+        margin-top:100px;
+        height: 300px;
+        width: 600px;
+    }*/
+    /*not used */
+    /*
+    .pass-reset{
+        font-size: 30px;
+    }
+    div.msg{
+        margin-top:100px;
+        margin-bottom:-150px;
+        width: 700px;
+        margin-left: -100px;
+    }
+}
+/*
+/* message sending */
+
+/* register login */
+@media (max-width: 1000px){
+    .form-group {
+        margin-bottom:150px;
+        margin-top:-5px;
+     }
+    .border-top, .signup{
+        padding-top: 40px;
+        width: 900px;
+    }
+    .signin{
+        float:right;
+        padding-right:5%;
+        padding-top:25px;
+    }
+    #id_username, #id_password, #id_email, #id_new_password1, #id_new_password2, #id_inbox_name, #id_password1, #id_password2{
+        margin-top: 20px;
+        height: 80px;
+        width:700px;
+        font-size: 30px;
+    }
+    #div_id_username.form-group, #div_id_content{
+        margin-top: 30px;
+    }
+    #div_id_password.form-group, #div_id_email.form-group, #div_id_new_password1,#div_id_inbox_name, #div_id_password1, #div_id_password2, #div_id_image{
+        margin-top: 170px;
+        margin-bottom: 40px;
+    }
+    #div_id_new_password2{
+        padding-top: 90px;
+    }
+}

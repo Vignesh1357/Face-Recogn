@@ -1,0 +1,18 @@
+{% extends "facedetect/base.html"%}
+{% load crispy_forms_tags %}
+{% block content %}
+
+        <div class="main_home">
+            <form method="POST" >
+
+                {% csrf_token %}
+                <button class="btn btn-outline-info" type="submit" id="home" name="home" value="home">Enroll Face</button>
+                <button class="btn btn-outline-info" type="submit" id="recognize" name="recognize" value="recognize">Recognize</button>
+
+            </form>
+        </div>
+
+
+
+
+{% endblock content %}

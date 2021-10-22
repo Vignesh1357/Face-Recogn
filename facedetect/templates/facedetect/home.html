@@ -1,0 +1,35 @@
+{% extends "facedetect/base.html"%}
+{% load crispy_forms_tags %}
+{% block content %}
+    {% if person_obj.usn is None %}
+        <div class="content-section">
+        <form method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            <fieldset class ="form-msg">
+                {{ usn_form|crispy }}
+            </fieldset>
+            <div class="signup">
+                <button class="btn btn-outline-primary button" name="usn field"  value='usn' type="submit" >submit</button>
+            </div>
+        </form>
+        </div>
+    {% else %}
+        <div>
+
+            <p id="counter" >Note 1: Please wait for <span id="timer">15</span> Seconds to successfully complete video capturing <br/>
+        Note 2: Please make sure you have captured your video using Capture button then you may proceed further.</p>
+            <form method="POST" >
+
+                {% csrf_token %}
+
+                <input class="btn btn-outline-info" id="capture" type="button" value="Capture" onclick="video('{{user_usn}}',1);"/>
+                <button class="btn btn-outline-info" type="submit" id="analyze" name="analyze" value="analyze">Analyze</button>
+
+
+            </form>
+        </div>
+    {% endif %}
+
+   
+
+{% endblock content %}
